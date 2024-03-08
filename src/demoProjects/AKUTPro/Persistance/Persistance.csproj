@@ -14,11 +14,10 @@
 
   <ItemGroup>
     <Folder Include="Repositories\" />
-    
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\buyAOses\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>
