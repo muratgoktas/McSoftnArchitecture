@@ -13,12 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
-    
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\..\AKUTPro\Persistance\Persistance.csproj" />
     <ProjectReference Include="..\..\buyAOses\Domain\Domain.csproj" />
+    <ProjectReference Include="..\..\rentACar\Application\Application.csproj" />
+    <ProjectReference Include="..\..\templateProject\Application\Application.csproj" />
+    <ProjectReference Include="..\..\templateProject\Persistence\Persistence.csproj" />
   </ItemGroup>
 
 </Project>

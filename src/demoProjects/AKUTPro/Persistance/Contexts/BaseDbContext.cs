@@ -32,11 +32,12 @@ namespace Persistence.Contexts
         {
             modelBuilder.Entity<Product>(a =>
             {
-                a.ToTable("Brands").HasKey(k => k.Id);
+                a.ToTable("Product").HasKey(k => k.Id);
                 a.Property(p => p.Id).HasColumnName("Id");
                 a.Property(p => p.Name).HasColumnName("Name");
                 a.Property(p => p.Quantity).HasColumnName("Quentity");
                 a.Property(p => p.Price).HasColumnName("Price");
+               
             });
 
 
