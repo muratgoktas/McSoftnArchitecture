@@ -7,10 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Brands\Commands\CreateBrand\" />
     <Folder Include="Features\Brands\Constants\" />
     <Folder Include="Features\Brands\Models\" />
-    <Folder Include="Features\Brands\Dtos\" />
     <Folder Include="Features\Brands\Rules\" />
     <Folder Include="Features\Brands\Queries\" />
     <Folder Include="Features\Brands\Profiles\" />
@@ -18,7 +16,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\corePackages\Core.Persistence\Core.Persistence.csproj" />
-    <ProjectReference Include="..\..\rentACar\Domain\Domain.csproj" />
+    <ProjectReference Include="..\..\buyAOses\Domain\Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+
   </ItemGroup>
 
 </Project>
