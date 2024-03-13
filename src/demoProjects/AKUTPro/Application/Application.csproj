@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Features\Products\Constants\" />
     <Folder Include="Features\Products\Models\" />
-    <Folder Include="Features\Products\Profiles\" />
     <Folder Include="Features\Products\Rules\" />
     <Folder Include="Features\Products\Queries\" />
   </ItemGroup>
@@ -23,7 +22,6 @@
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.1" />
     <PackageReference Include="MediatR" Version="10.0.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
-
   </ItemGroup>
 
 </Project>
